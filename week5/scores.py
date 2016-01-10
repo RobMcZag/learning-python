@@ -6,7 +6,7 @@ except:
     quit()
 
 if score > 1:
-    print "Score should be between 0 and 1. (" + score + ") is too high!"
+    print "Score should be between 0 and 1. (" + str(score) + ") is too high!"
 elif score >= 0.9:
     print "A"
 elif score >= 0.8:
@@ -18,4 +18,4 @@ elif score >= 0.6:
 elif score >= 0 and score < 0.6:
     print "F"
 else:
-    print "Score should be between 0 and 1. (" + score + ") is too low!"
+    print "Score should be between 0 and 1. (" + str(score) + ") is too low!"
