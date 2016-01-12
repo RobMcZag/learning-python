@@ -4,4 +4,5 @@ fh = open(fname)
 
 text = fh.read()
 
+fh.close()
 print text.upper().rstrip()
